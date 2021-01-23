@@ -1,0 +1,252 @@
+@import url("https://use.typekit.net/lun8ldi.css");
+
+body {
+	color: #fff;
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top; 
+    /*background-size: 100%;*/
+    background-color: #4f5869;
+    font-family: proxima-nova, Georgia, serif;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin: 0;
+}
+
+p {
+	margin-bottom: 0px;
+}
+
+h1 {
+	font-size: 2rem;
+	font-family: metallophile-sp8, Helvetica, Sans-serif;
+	text-align: left;
+	margin-bottom: 1rem;
+	font-weight: 500;
+	line-height: 2.5rem;
+	color: #6be4f2;
+}
+
+h2 {
+	font-family: metallophile-sp8, Helvetica, Sans-serif;
+	font-size: 2rem;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-family: proxima-nova, Helvetica, Sans-serif;
+	font-size: 1.6rem;
+	font-weight: 700;
+}
+
+.site-title {
+	text-transform: uppercase;
+	font-size: 2rem;
+	font-weight: 500;
+	margin-right: 2.5rem;
+}
+
+.content-container {
+	  margin: 0 auto;
+	  max-width: 900px;
+	  padding: 1rem;
+	  text-align: left;
+	  display: flex;
+	  flex-flow: row wrap;
+	  justify-content: space-between;
+	  align-items: center;
+}
+
+.content-container h3 {
+	text-align: center;
+}
+
+nav {
+	margin-top: 1rem;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+.logomark {
+	width: 90px;
+	height: 68px;
+}
+
+.nav-links {
+	list-style-type: none;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.nav-link {
+	font-family: metallophile-sp8, Helvetica, sans-serif;
+	margin-right: 20px;
+	margin-top: 10px;
+	font-size: 1.2rem;
+
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	padding-bottom: 10px;
+}
+
+nav a:hover {
+	color: #6be4f2;
+}
+
+.left {
+	flex-grow: 2;
+	width: 40%;
+	margin-right: 50px;
+}
+
+.right {
+	width: 30%;
+}
+
+.phone-mock {
+	width: 225px;
+	height: 450px;
+	transform: rotate(4deg);
+}
+
+.testimonials {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	margin: 75px 0px;
+}
+
+h3 .content-container {
+	text-align: center;
+}
+
+.review {
+	background: rgba(255,255,255,0.1);
+	border-radius: 20px;
+	margin: 10px;
+	padding: 0px 10px 30px 20px;
+	width: 33%;
+}
+
+#quote {
+	font-family: Georgia, serif;
+	font-size: 10rem;
+	opacity: 0.1;
+	position: absolute;
+	margin-top: 50px;
+}
+
+#quote-end {
+	font-family: Georgia, serif;
+	font-size: 10rem;
+	opacity: 0.1;
+	position: absolute;
+	margin-top: 0px;
+	margin-left: 175px;
+}
+
+#quote2 {
+	font-family: Georgia, serif;
+	font-size: 10rem;
+	opacity: 0.1;
+	position: absolute;
+	margin-top: 70px;
+}
+
+#quote-end2 {
+	font-family: Georgia, serif;
+	font-size: 10rem;
+	opacity: 0.1;
+	position: absolute;
+	margin-top: -10px;
+	margin-left: 400px;
+}
+
+.download {
+	font-family: metallophile-sp8, Helvetica, sans-serif;
+	font-size: 1.4rem;
+	background: none;
+	color: #6be4f2;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-bottom:20px;
+	padding: 15px;
+	border: 2px solid #6be4f2;
+}
+
+.download:hover {
+	background: #6be4f2;
+	color: #121723;
+}
+
+.quote {
+	margin: 0 auto;
+	margin-top: 100px;
+	max-width: 550px;
+	padding: 1rem;
+	text-align: left;
+}
+
+@media only screen and (max-width: 560px) {
+	.left h1 {
+		font-size: 3rem;
+		line-height: 3.2rem;
+		margin-bottom: 3.2rem;
+	}
+
+	h3 {
+		font-size: 1.8rem;
+		line-height: 2.4rem;
+		text-align: center;
+	}
+
+	.content-container {
+		text-align: left;
+		max-width: 400px;
+		z-index: 1;
+	}
+
+	.left, .right {
+		width: 100%;
+	}
+
+	.phone-mock {
+		display: none;
+	}
+
+	.quote {
+		margin: 20px;
+	}
+
+	#quote-end2 {
+		margin-left: 200px;
+	}
+
+	.nav-links {
+		display: none;
+	}
+
+	.download {
+		text-align: center;
+	}
+
+
+	.testimonials {
+		margin: 25px 0px;
+		flex-flow: row wrap;
+	}
+
+	.review {
+		width: 90%;
+	}
+}
+

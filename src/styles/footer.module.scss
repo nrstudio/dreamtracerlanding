@@ -1,0 +1,49 @@
+.text {
+	font-size: 1rem;
+	font-family: metallophile-sp8, Helvetica, sans-serif;
+	line-height: 24px;
+	margin-left: 20px;
+	padding-bottom: 10px;
+}
+
+.container {
+	 background: #121723;
+	 padding-bottom: 20px;
+	 padding-top: 20px;
+}
+
+.one {
+	flex-grow: 1;
+}
+
+.two {
+	flex-grow: 2;
+}
+
+.three {
+	flex-grow: 1;
+}
+
+.four {
+	flex-grow: 1;
+	text-align: right;
+	margin-top: 10px;
+}
+
+.social {
+	width: 35px;
+	height: 35px;
+	opacity: 0.5;
+	margin: 7px;
+}
+
+.features {
+	text-align: center;
+	flex-grow: 1;
+	width: 33%;
+	margin: 10px;
+	border-radius: 20px;
+	border: solid #aaa 0px;
+	padding: 20px;
+}
+

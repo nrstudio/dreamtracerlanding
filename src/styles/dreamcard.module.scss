@@ -1,0 +1,73 @@
+.bg {
+	background: rgba(79,88,105,0.7);
+	height: 350px;
+	margin-top: 50px;
+	margin-bottom: 120px;
+
+	@media only screen and (max-width: 600px) {
+		height: 600px;
+		margin-bottom: 100px;
+	}
+}
+
+.container {
+	margin: 10px auto;
+	margin-top: 20px;
+	max-width: 900px;
+	padding: 1rem;
+	text-align: left;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+
+	@media only screen and (max-width: 600px) {
+		max-width: 400px;
+		flex-flow: wrap;
+	}
+}
+
+.card1 {
+	transform: rotate(-8deg);
+	display: inline;
+	width: 256px;
+	height: 400px;
+
+	@media only screen and (max-width: 550px) {
+		width: 175px;
+		height: 273px;
+	}
+}
+
+.card2 {
+	transform: rotate(8deg);
+	display: inline;
+	position: relative;
+	width: 256px;
+	height: 400px;
+	left: -100px;
+	top: -50px;
+
+	@media only screen and (max-width: 550px) {
+		width: 175px;
+		height: 273px;
+		left: -10px;
+		top: 10px;
+	}
+}
+
+.left {
+	flex-grow: 1;
+	overflow: visible;
+	white-space: nowrap;
+	width: 480px;
+
+	@media only screen and (max-width: 500px) {
+		width: 400px;
+		text-align: center;
+		margin-top: -50px;
+	}
+}
+
+.right {
+	flex-grow: 1;
+}
